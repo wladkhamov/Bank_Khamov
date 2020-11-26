@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="329dp"
+        android:layout_height="82dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="334dp"
+        android:layout_height="117dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="240dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/money"/>
+    <ImageButton
+        android:id="@+id/apm"
+        android:layout_width="334dp"
+        android:layout_height="117dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="360dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/apm"/>
+
+    <ImageButton
+        android:id="@+id/btn_login"
+        android:layout_width="334dp"
+        android:layout_height="117dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:background="@android:color/transparent"
+        android:longClickable="true"
+        android:onClick="OnClickListener"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/btn_login" />
+
+</RelativeLayout>
