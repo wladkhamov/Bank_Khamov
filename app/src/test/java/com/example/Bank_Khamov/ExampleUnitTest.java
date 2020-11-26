@@ -1,4 +1,4 @@
-package com.example.ws_bank_bakunov;
+package com.example.Bank_Khamov;
 
 import org.junit.Test;
 

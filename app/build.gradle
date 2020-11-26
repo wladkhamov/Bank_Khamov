@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.example.ws_bank_bakunov"
+        applicationId 'com.example.Bank_Khamov'
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
